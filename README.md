@@ -5,6 +5,6 @@
 ## Usage
 ### Python
 ```py
-_tts = SolarTTS("Google_Access_Token_here", "text_for_tts", "voice_", "language (en-US)", "name-of-language_code (en-GB-Standard-A)", "gender")
-__response__ = _tts.TTS_()
+_tts = SolarTTS("Google_Access_Token_here", "text_for_tts", "voice_", "language (en-US)", "name-of-language_code (en-GB-Standard-A)", "gender") # Constructing the class
+__response__ = _tts.TTS_() # Calling the function to do the job.
 ```
