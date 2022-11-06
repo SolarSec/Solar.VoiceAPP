@@ -13,13 +13,13 @@
         gender: str,
         audio_encoding: str = "MP3") -> None:
 ```
-```google_access_token[str] := Google Authorization Token (Bearer)<br >
-text[str] := Text to convert to speech<br >
-voice[str] := The voice of the speech<br >
-languagecode[str] := The language and region of the speech<br >
-name[str] := Name of the speaker<br >
-gender[str] := Gender of the speech<br >
-audi_encoding^[str] := File type to format the speech to (The audio file will be stored in Google Clouds webservers)<br >```
+```google_access_token[str] := Google Authorization Token (Bearer)```<br >
+```text[str] := Text to convert to speech```<br >
+```voice[str] := The voice of the speech```<br >
+```languagecode[str] := The language and region of the speech```<br >
+```name[str] := Name of the speaker```<br >
+```gender[str] := Gender of the speech```<br >
+```audi_encoding^[str] := File type to format the speech to (The audio file will be stored in Google Clouds webservers)```<br >
 ## Usage
 ### Python
 ```py
