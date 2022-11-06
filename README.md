@@ -19,7 +19,7 @@
 ```languagecode[str] := The language and region of the speech```<br >
 ```name[str] := Name of the speaker```<br >
 ```gender[str] := Gender of the speech```<br >
-```audi_encoding^[str] := File type to format the speech to (The audio file will be stored in Google Clouds webservers)```<br >
+```audi_encoding^[str] := File type to format the speech to```<br >
 ## Usage
 ### Python
 ```py
