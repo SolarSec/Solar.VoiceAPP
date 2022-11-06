@@ -24,7 +24,7 @@ class SolarTTS:
         _constructed_headers: dict = {"Authorization": "Bearer {}".format(self.google_access_token), "Content-Type" : "application/json; charset=utf-8"}
         _constructed_payload: dict = json.dumps({"input" : {"text" : self.text},"voice" : {"languageCode" : self.languagecode,"name" : self.name,"ssmlGender" : self.gender},"audioConfig" : {"audioEncoding" : self.audio_encoding}})
 
-        with requests.get("https://texttospeech.googleapis.com/v1/text:synthesize", headers=_constructed_headers, data=_constructed_payload) as _a:
+        with requests.post("https://texttospeech.googleapis.com/v1/text:synthesize", headers=_constructed_headers, data=_constructed_payload) as _a:
             _response = _a.text
         
         return _response if bool(_response) else    0
